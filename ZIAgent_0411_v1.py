@@ -39,7 +39,7 @@ Lambda_PowerLaw = [k_Est/(pow(j,Alpha_Est)) for j in range(1,6)]
 # test for system
 n = 200  # total number of price grids
 PriceGridSize = 0.1  # usually 1 or 0.1 or 0.01
-TimeHorizon = 200
+TimeHorizon = 50
 deltaT = 0.5
 qtysize = 1000
 
